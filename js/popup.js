@@ -2,7 +2,7 @@ autofillstart();
 
 function autofillstart(){
 	document.addEventListener('DOMContentLoaded' , function(){
-
+		console.log("Running");
 		var o = document.getElementById('o');
 		var t = document.getElementById('t');
 		var h = document.getElementById('h');
